@@ -241,7 +241,6 @@ const CreateResource = ({ token }) => {
           <MapContainer
             center={[locationPreview.lat, locationPreview.lon]}
             zoom={13}
-            scrollWheelZoom={false}
             style={{ height: "300px", width: "100%" }}
           >
             <TileLayer
